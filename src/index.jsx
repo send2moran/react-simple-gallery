@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from "react";
-import {If, Then, Else} from "react-if"
+import {If} from "react-if"
 import { render } from "react-dom";
 import { Provider } from "react-redux";
 import { getAlbumsFromApi } from "./actions/album";
 import { getPhotosFromApi, photosByAlbum } from "./actions/photo";
-import {selectAlbum, deletePhoto, selectPhoto} from './actions/global'
+import {selectAlbum} from './actions/global'
 import { configureStore } from "./store";
 import Modal from './components/Modal';
 import PhotoGallery from './components/PhotoGallery';

@@ -1,5 +1,5 @@
 import {getPhotos} from '../services/api'
-import {createAction, createActions} from 'redux-actions';
+import {createAction} from 'redux-actions';
 
 export const photosSuccess = createAction('GET_PHOTOS', payload => (payload));
 export const photosByAlbum = createAction('GET_PHOTOS_BY_ALBUM', (payload) => (payload));
