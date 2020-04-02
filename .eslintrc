@@ -1,0 +1,12 @@
+{
+    // "extends": "fbjs",
+    // "extends": ["react-app"]
+    // "extends": ["react-app", "plugin:jsx-a11y/recommended"]
+    // "extends": ["airbnb", "airbnb/hooks"],
+    "extends": ["react-app", "fbjs/strict"],
+    "rules": {
+        "complexity": ["error", { "max": 2 }],
+        "max-len": [1, {"code": 120, "tabWidth": 4, "ignoreUrls": true}],
+        "one-var": ["error", { "var": "always", "let": "never", "const": "never" }]
+    }
+}
